@@ -1,0 +1,12 @@
+<title>Cookbook</title>
+
+<ul>
+  <% @recipes.each_with_index do |recipe, index| %>
+    <li>
+      <% recipe.done? ? x = "X" : x = " "  %>
+      <%= "#{index + 1}. [#{x}] #{recipe.name} - #{recipe.description} (#{recipe.prep_time})" %>
+    </li>
+  <% end %>
+</ul>
+
+<a class="new" href="/new">Add Recipe</a>
