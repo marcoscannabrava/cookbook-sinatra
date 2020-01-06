@@ -5,6 +5,7 @@
     <li>
       <% recipe.done? ? x = "X" : x = " "  %>
       <%= "#{index + 1}. [#{x}] #{recipe.name} - #{recipe.description} (#{recipe.prep_time})" %>
+      <a class="new" href=<%="/edit/#{index}"%>>Edit Recipe</a>
     </li>
   <% end %>
 </ul>

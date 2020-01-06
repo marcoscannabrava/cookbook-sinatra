@@ -1,4 +1,20 @@
+# Cookbook
+
+A simple CRUD app.
+- See list of recipes
+- Write new recipe.
+
+(pending view implementation)
+- Edit recipes.
+- Mark recipe as done.
+- Delete recipes.
+
+Run 'bundle install' and 'ruby app.rb' to run the app.
+
 Project developed @ Le Wagon Bootcamp.
+
+![Screenshot](lib/scrnshot.png)
+
 
 ## Some words about Sinatra
 

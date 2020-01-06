@@ -23,6 +23,12 @@ get '/new' do
   erb :new
 end
 
+# PENDING ------------------------------------
+get '/edit/:index' do
+  erb :edit
+end
+# PENDING (END) ------------------------------------
+
 post '/new' do
   # binding.pry
   new_recipe = Recipe.new(params)
