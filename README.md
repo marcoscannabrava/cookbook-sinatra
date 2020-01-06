@@ -1,10 +1,4 @@
 # Cookbook
---------------------------------------------
-
-![Screenshot](lib/scrnshot.png)
-
---------------------------------------------
-> Screenshot
 
 A simple CRUD app.
 - See list of recipes
@@ -19,8 +13,10 @@ Run 'bundle install' and 'ruby app.rb' to run the app.
 
 Project developed @ Le Wagon Bootcamp.
 
+> Screenshot
+![Screenshot](lib/scrnshot.png)
 
-
+-------------------------------------
 
 ## Some words about Sinatra
 
